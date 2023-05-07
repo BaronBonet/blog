@@ -4,24 +4,36 @@ date: 2023-04-10T09:36:34+02:00
 draft: false
 ---
 
+In this series, we'll explore using ChatGPT to write and test many routine aspects of software development, ChatGPT (I'll be using ChatGPT-4 throughout these posts and will refer to it as ChatGPT) excels at well-defined, small tasks. Hexagonal architecture encourages well-defined, bounded software, making it possible to delegate numerous "implementation details" to ChatGPT.
 
-Hexagonal Architecture, introduced by [Alistair Cockburn](https://alistair.cockburn.us/hexagonal-architecture/), is an architectural pattern that emphasizes the separation of concerns and the decoupling of dependencies between an application's core logic and its external services or interfaces. Central to this pattern are the concepts of 'ports' and 'adapters'. Ports delineate the boundaries and the contract that the application core (or domain) exposes to external services, while adapters are responsible for managing communication between the application core and external services. By adopting this pattern, developers can achieve a high degree of modularity and testability, and simplify the integration of new technologies or components with minimal impact on the existing system. 
+This post will cover implementing core business logic and domain models.
 
-With a well-defined separation in place, it's also possible to delegate many of the "implementation details" (a familiar phrase for software engineers) to ChatGPT.
+## Hexagonal Architecture
+
+Introduced by [Alistair Cockburn](https://alistair.cockburn.us/hexagonal-architecture/), is an architectural pattern that emphasizes the separation of concerns and the decoupling of dependencies between an application's core logic and its external services or interfaces. Central to this pattern are the concepts of 'ports' and 'adapters'. Ports act as the interface between the application core service (business logic) layer and the adapters. The adapters are responsible for managing communication to external services. 
+
+![Ports and adapters](https://cdn.ericcbonet.com/ports-and-adapters.png)
+
+This post doesn't aim to teach hexagonal architecture, but numerous excellent resources are available, including:
+  * [Achieving maintainability with hexagonal architecture](https://www.youtube.com/watch?v=vKbVrsMnhDc)
+  * [Hexogonal Architecture in Go](https://medium.com/@matiasvarela/hexagonal-architecture-in-go-cfd4e436faa3) 
+  * Eric Evans book, Domain-Driven Design Tacking Complexity in the Heart of Software
+  * Uncle Bob's book, Clean Architecture: A Craftsman's Guide to Software Structure and Design
 
 ## The project
 
-I was talking with a friend about ridiculous things to build, and we came up with the idea of creating a 
-bot that would:
-- Scrape the news for the latest headlines
-- Use AI to generate an image based on the headline
-- Post that image to social media
+I was talking with a friend about ridiculous things to build, and we came up with the idea of creating a bot that would:
+- Scrape the latest headlines from the news
+- Utilize AI to generate an image based on the headline
+- Post the image on social media
 
-This project is an ideal candidate for hexagonal architecture since the core logic is quite simple, but we may want to switch out the adapters. For example, we'll have an adapter for scraping the news, and we may want to change the news source.
+This project it seemed like a good candidate for this blog for two reasons:
+- We should be able to leverage well documented external APIs. This task, figuring out how to use the APIs and writing code, is something I've found ChatGPT pretty good at.
+- We might want to try different news sources or image creation tools. With hexagonal architecture we'll define a 'news Source' port and the adapters e.g. New York Times News Source Adapter or the Guardian News Source Adapter can be freely interchanged.
 
 ## The Core
 
-I've decided to implement this project in Golang, as I'm fond of the language. For a project like this, I typically start by defining the core and then adding the adapters. I'll begin by [setting up the Go project](https://www.wolfe.id.au/2020/03/10/starting-a-go-project/) and creating the core.
+I've decided to implement this project in Golang. Typically, I start by defining the core and then adding the adapters. After [setting up the Go project](https://www.wolfe.id.au/2020/03/10/starting-a-go-project/) I'll create the projects core. For now, I'll omit the applications entry point (e.g. `cmd/main.go`) and any handlers (e.g., CLI, REST, gRPC) that could be used to access the service.
 
 The initial project structure looks like this:
 
@@ -38,11 +50,11 @@ The initial project structure looks like this:
             └── service.go
 ```
 
-Please note that this is my preferred way of structuring hexagonal architecture code, and there are many alternative approaches. A quick Google search for hexagonal architecture will yield numerous examples.
+Please note that this is my preferred way of structuring hexagonal architecture code, and there are many alternative approaches. A quick Google search for hexagonal architecture will yield numerous examples. 
 
 ### Service
 
-I'll start by implementing the service. While doing so, I realized that an intermediate step would be needed between obtaining an article from the news and generating an image: creating a prompt for the image generator. Consequently, I added an adapter for that.
+The service.go file currently houses our business logic and runs the GenerateAndPublishNewsContent pipeline. As I developed this pipeline, I recognized the need for an intermediate step between fetching a news article and generating an image. This involves crafting a prompt for the image generator, as directly inputting news content may not yield the best images. All adapters are referenced in this file, and we plan to use ChatGPT for their implementation in the future.
 
 ```go
 package service
@@ -60,7 +72,7 @@ type NewsContentService struct {
 	socialMediaAdapter    ports.SocialMediaAdapter
 }
 
-func (srv *NewsContentService) GenerateNewsContent(ctx context.Context) error {
+func (srv *NewsContentService) GenerateAndPublishNewsContent(ctx context.Context) error {
 	article, err := srv.newsAdapter.GetMainArticle(ctx)
 	if err != nil {
 		srv.logger.Error(ctx, "Error when getting article", "error", err)
@@ -87,7 +99,7 @@ func (srv *NewsContentService) GenerateNewsContent(ctx context.Context) error {
 
 ### Domain
 
-`domain.go` contains the types that are being used in the service layer, other than built in type e.g. `error` everything used in the service needs to be defined here, therefor the adapters will receive and return these types. 
+`domain.go` contains the variable types that are being used in the service layer and ports. 
 
 ```go
 package domain
@@ -113,7 +125,7 @@ type ImagePath string
 
 ### Ports
 
-Lastly, we'll define the ports. These are the interfaces that the adapters will implement.
+Lastly, we'll define the ports. These are the methods that we have access to in the service layer which are implemented by adapters. 
 
 ```go
 package ports
@@ -146,7 +158,7 @@ type Logger interface {
 }
 ```
 
-If you're using copilot then you wont have to do much work here.
+A side note, if you're using copilot then you won't have to do much work here.
 
 ![copilot](/img/co-pilot.png)
 
@@ -156,4 +168,4 @@ this in a future post.
 
 ## Conclusion
 
-We've now implemented the core of the project. All that remains are the "implementation details," which will leverage ChatGPT in upcoming posts. Stay tuned!
+We've now implemented the core of the project. All that remains are the adapters that will implement the methods defined in the ports and wiring the application up.

@@ -6,7 +6,6 @@ draft: true
 
 Start with stating that this is not a post about hexagonal architecture, there are many better resources for learning about that 
 * There are many great tools for getting started with hexagonal architecture, for example:
-    * Kat Zień - Achieving maintainability with hexagonal architecture.youtube.com › watch
     * https://netflixtechblog.com/ready-for-changes-with-hexagonal-architecture-b315ec967749
     * A practical implimentation of domain driven design from Eric Evans
 

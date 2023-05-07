@@ -48,6 +48,10 @@ resource "aws_cloudfront_distribution" "frontend_distribution" {
     default_ttl            = 3600
     max_ttl                = 31536000
     compress               = true
+    lambda_function_association {
+      event_type   = "origin-request"
+      lambda_arn   = aws_lambda_function.rewrite.qualified_arn
+    }
   }
 
   price_class = "PriceClass_200"
@@ -73,6 +77,7 @@ resource "aws_cloudfront_distribution" "frontend_distribution" {
     }
   }
 }
+
 
 # ----------------------------------------------------------------------------------
 #                                      CDN

@@ -15,17 +15,6 @@ resource "aws_s3_bucket_website_configuration" "frontend_bucket" {
     error_document {
         key = "404.html"
     }
-
-    routing_rules = jsonencode([
-      {
-        Condition = {
-          KeyPrefixEquals = "/"
-        }
-        Redirect = {
-          ReplaceKeyWith = "index.html"
-        }
-      }
-    ])
 }
 
 

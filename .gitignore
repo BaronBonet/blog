@@ -3,3 +3,6 @@ _gen
 .hugo_build.lock
 .terraform
 .terraform.lock.hcl
+public
+*.zip
+.DS_Store
