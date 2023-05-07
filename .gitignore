@@ -1,3 +1,5 @@
 _gen
 .idea
 .hugo_build.lock
+.terraform
+.terraform.lock.hcl
