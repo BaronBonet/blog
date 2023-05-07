@@ -6,6 +6,29 @@ resource "aws_s3_bucket" "frontend_bucket" {
   bucket = "${var.prefix}-${var.frontend_bucket_name}"
 }
 
+resource "aws_s3_bucket_website_configuration" "frontend_bucket" {
+  bucket = aws_s3_bucket.frontend_bucket.bucket
+
+  index_document {
+    suffix = "index.html"
+  }
+    error_document {
+        key = "404.html"
+    }
+
+    routing_rules = jsonencode([
+      {
+        Condition = {
+          KeyPrefixEquals = "/"
+        }
+        Redirect = {
+          ReplaceKeyWith = "index.html"
+        }
+      }
+    ])
+}
+
+
 data "aws_iam_policy_document" "frontend_bucket_policy_document" {
   statement {
     actions   = ["s3:ListBucket"]

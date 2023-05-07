@@ -14,6 +14,7 @@ resource "aws_cloudfront_distribution" "frontend_distribution" {
     origin_id   = local.s3_frontend_origin_id
     s3_origin_config {
       origin_access_identity = aws_cloudfront_origin_access_identity.frontend_s3_distribution.cloudfront_access_identity_path
+
     }
   }
 
@@ -52,10 +53,17 @@ resource "aws_cloudfront_distribution" "frontend_distribution" {
   price_class = "PriceClass_200"
 
   custom_error_response {
-    error_caching_min_ttl = 0
+    error_caching_min_ttl = 300
     error_code           = 403
-    response_code        = 200
-    response_page_path   = "/index.html"
+    response_code        = 404
+    response_page_path   = "/404.html"
+  }
+
+  custom_error_response {
+    error_caching_min_ttl = 300
+    error_code           = 404
+    response_code        = 404
+    response_page_path   = "/404.html"
   }
 
   restrictions {
@@ -64,7 +72,6 @@ resource "aws_cloudfront_distribution" "frontend_distribution" {
       locations = []
     }
   }
-
 }
 
 # ----------------------------------------------------------------------------------
