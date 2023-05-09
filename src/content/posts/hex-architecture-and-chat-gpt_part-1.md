@@ -45,7 +45,9 @@ The initial project structure looks like this:
         ├── domain
         │   └── domain.go
         ├── ports
-        │   └── ports.go
+        │   ├── driven.go
+        │   ├── infrastructure.go
+        │   └── service.go
         └── service
             └── service.go
 ```
@@ -54,7 +56,9 @@ Please note that this is my preferred way of structuring hexagonal architecture 
 
 ### Service
 
-The service.go file currently houses our business logic and runs the GenerateAndPublishNewsContent pipeline. As I developed this pipeline, I recognized the need for an intermediate step between fetching a news article and generating an image. This involves crafting a prompt for the image generator, as directly inputting news content may not yield the best images. All adapters are referenced in this file, and we plan to use ChatGPT for their implementation in the future.
+The service.go file currently houses our business logic and runs the GenerateAndPublishNewsContent pipeline. As I developed this pipeline, I recognized the need for an intermediate step between fetching a news article and generating an image. This involves crafting a prompt for the image generator, as directly inputting news content may not yield the best images. 
+
+All adapters are referenced in this file, and we plan to use ChatGPT for their implementation in the future.
 
 ```go
 package service
@@ -65,7 +69,7 @@ import (
 )
 
 type NewsContentService struct {
-	logger                ports.Logger
+	logger                ports.Loggr
 	newsAdapter           ports.NewsAdapter
 	promptCreationAdapter ports.PromptCreationAdapter
 	generationAdapter     ports.ImageGenerationAdapter
@@ -127,6 +131,7 @@ type ImagePath string
 
 Lastly, we'll define the ports. These are the methods that we have access to in the service layer which are implemented by adapters. 
 
+driven.go contains the ports for all the adapters we will attempt to have ChatGPT implement.
 ```go
 package ports
 
@@ -150,6 +155,33 @@ type ImageGenerationAdapter interface {
 type SocialMediaAdapter interface {
 	PublishImagePost(ctx context.Context, localImage domain.ImagePath, imagePrompt domain.ImagePrompt) error
 }
+```
+
+If you're using copilot then you won't have to do much work here.
+
+![copilot](https://cdn.ericcbonet.com/co-pilot-hex-arch.gif)
+
+
+service.go contains the port that the service implements. This is useful when it comes time for testing the handlers.
+
+```go
+package ports
+
+import "context"
+
+type Service interface {
+	GenerateNewsContent(ctx context.Context) error
+}
+```
+
+infrastructure.go contains the Logging port. I think this port deviates from the principles of hexagonal architecture because the logger is used in both the service layer and the adapters. I don't see an issue with this implementation but am curious if anyone disagrees.
+
+```go
+package ports
+
+import (
+	"context"
+)
 
 type Logger interface {
 	Debug(ctx context.Context, msg string, keysAndValues ...interface{})
@@ -158,14 +190,6 @@ type Logger interface {
 }
 ```
 
-A side note, if you're using copilot then you won't have to do much work here.
-
-![copilot](/img/co-pilot.png)
-
-It's worth noting that there is a logger port. In my experience, this port deviates from the principles of 
-hexagonal architecture because I use the logger in both the service layer and the adapters. We'll revisit 
-this in a future post.
-
 ## Conclusion
 
-We've now implemented the core of the project. All that remains are the adapters that will implement the methods defined in the ports and wiring the application up.
+We've now implemented the core of the project. All that remains are the adapters that will implement the methods defined in the ports and wiring the application up and potentially adding a CLI or Lambda handler.

@@ -15,9 +15,9 @@ create-edge-function:
 
 .PHONY: to-cdn
 to-cdn: guard-fn
-	@pngpaste /tmp/$(fn).png
-	@aws s3 cp /tmp/$(fn).png s3://ericcbonet-blog-cdn/$(fn).png
-	@rm /tmp/$(fn).png
-	@echo "https://cnd.ericcbonet.com/$(fn).png" | pbcopy
+	@pngpaste /tmp/$(fn)
+	@aws s3 cp /tmp/$(fn) s3://ericcbonet-blog-cdn/$(fn)
+	@rm /tmp/$(fn)
+	@echo "https://cdn.ericcbonet.com/$(fn)" | pbcopy
 	@echo "Uploaded to cdn and copied url to clipboard"
 
