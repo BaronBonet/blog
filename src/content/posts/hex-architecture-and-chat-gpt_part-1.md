@@ -1,6 +1,7 @@
 ---
-title: "Hexoginal Architecture and Chat GPT - Part One"
-date: 2023-04-10T09:36:34+02:00
+title: "Hex Architecture & ChatGPT - Part 1, the project"
+date: 2023-05-06
+description: "The start of a series where we'll explore how Hexagonal Architecture combined with ChatGPT can make you a 10x developer overnight."
 draft: false
 ---
 
@@ -11,8 +12,6 @@ This post will cover implementing core business logic and domain models.
 ## Hexagonal Architecture
 
 Introduced by [Alistair Cockburn](https://alistair.cockburn.us/hexagonal-architecture/), is an architectural pattern that emphasizes the separation of concerns and the decoupling of dependencies between an application's core logic and its external services or interfaces. Central to this pattern are the concepts of 'ports' and 'adapters'. Ports act as the interface between the application core service (business logic) layer and the adapters. The adapters are responsible for managing communication to external services. 
-
-![Ports and adapters](https://cdn.ericcbonet.com/ports-and-adapters.png)
 
 This post doesn't aim to teach hexagonal architecture, but numerous excellent resources are available, including:
   * [Achieving maintainability with hexagonal architecture](https://www.youtube.com/watch?v=vKbVrsMnhDc)
@@ -26,6 +25,8 @@ I was talking with a friend about ridiculous things to build, and we came up wit
 - Scrape the latest headlines from the news
 - Utilize AI to generate an image based on the headline
 - Post the image on social media
+ 
+![Ports and adapters](https://cdn.ericcbonet.com/ports-and-adapters.png)
 
 This project it seemed like a good candidate for this blog for two reasons:
 - We should be able to leverage well documented external APIs. This task, figuring out how to use the APIs and writing code, is something I've found ChatGPT pretty good at.
