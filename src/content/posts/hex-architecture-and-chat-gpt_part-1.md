@@ -7,7 +7,7 @@ draft: false
 
 In this series, we'll explore using ChatGPT to write and test many routine aspects of software development, ChatGPT (I'll be using ChatGPT-4 throughout these posts and will refer to it as ChatGPT) excels at well-defined, small tasks. Hexagonal architecture encourages well-defined, bounded software, making it possible to delegate numerous "implementation details" to ChatGPT.
 
-This post will cover implementing core business logic and domain models.
+This post will cover implementing core business logic, ports, domain models, and introduce testing in hexagonal architecture.
 
 ## Hexagonal Architecture
 
@@ -32,7 +32,7 @@ This project it seemed like a good candidate for this blog for two reasons:
 - We should be able to leverage well documented external APIs. This task, figuring out how to use the APIs and writing code, is something I've found ChatGPT pretty good at.
 - We might want to try different news sources or image creation tools. With hexagonal architecture we'll define a 'news Source' port and the adapters e.g. New York Times News Source Adapter or the Guardian News Source Adapter can be freely interchanged.
 
-## The Core
+## Set up the core
 
 I've decided to implement this project in Golang. Typically, I start by defining the core and then adding the adapters. After [setting up the Go project](https://www.wolfe.id.au/2020/03/10/starting-a-go-project/) I'll create the projects core. For now, I'll omit the applications entry point (e.g. `cmd/main.go`) and any handlers (e.g., CLI, REST, gRPC) that could be used to access the service.
 
@@ -191,6 +191,89 @@ type Logger interface {
 }
 ```
 
+## Test the service
+
+Even thought the logic in the service is quite simple, it's still good to add a test for any method in the service. For testing I like to use [mockery](https://github.com/vektra/mockery) a tool that generates the boilerplate code necessary to mock interfaces. 
+
+A `//go:generate` directive can be added above our interfaces in the `ports` folder. e.g.
+
+```go
+//go:generate mockery --name=Logger
+type Logger interface {
+   	Debug(ctx context.Context, msg string, keysAndValues ...interface{})
+   	...
+   }
+```
+
+By then including the [`.mockery.yaml`](https://github.com/BaronBonet/content-generator/blob/main/.mockery.yaml) file in the project root and running `go generate ./...` all of our mocks will be generated in the ports' folder. Be sure to exclude these files from git.
+
+The test file for the service will be added at `internal/core/service/service_test.go`.  To be honest, I initially attempted to get ChatGPT to write the tests for the service layer, but it didn't work so well, so I set up the tests myself then let co-pilot do the repetitive parts. 
+
+The setup I did for the service tests is shown below. The tests hopefully conform to a [_table-driven style_](https://gobyexample.com/testing). Once I had the setup in place co-pilot was able to add tests for all the errors. Those tests can be found [here](https://github.com/BaronBonet/content-generator/blob/main/internal/core/service/service_test.go). 
+
+```go
+package service
+
+import (
+	...
+)
+
+func tearDownAdapters(adapters ...*mock.Mock) {
+	for _, adapter := range adapters {
+		adapter.ExpectedCalls = []*mock.Call{}
+		adapter.Calls = []mock.Call{}
+	}
+}
+
+func TestService_GenerateNewsContent(t *testing.T) {
+	mockLogger := ports.NewMockLogger(t)
+	mockNewsAdapter := ports.NewMockNewsAdapter(t)
+	mockPromptCreationAdapter := ports.NewMockPromptCreationAdapter(t)
+	mockImageGenerationAdapter := ports.NewMockImageGenerationAdapter(t)
+	mockSocialMediaAdapter := ports.NewMockSocialMediaAdapter(t)
+
+	testCases := []struct {
+		name          string
+		setupMocks    func()
+		expectedError error
+	}{
+		{
+			name: "Success",
+			setupMocks: func() {
+				mockNewsAdapter.On("GetMainArticle", mock.Anything).Return(domain.NewsArticle{Title: "Test Article"}, nil)
+				mockPromptCreationAdapter.On("CreateImagePrompt", mock.Anything, mock.Anything).Return(domain.ImagePrompt("Test Image Prompt"), nil)
+				mockImageGenerationAdapter.On("GenerateImage", mock.Anything, mock.Anything).Return(domain.ImagePath("Test Image Path"), nil)
+				mockSocialMediaAdapter.On("PublishImagePost", mock.Anything, mock.Anything, mock.Anything).Return(nil)
+			},
+			expectedError: nil,
+		},
+	}
+
+	for _, tc := range testCases {
+		t.Run(tc.name, func(t *testing.T) {
+			tc.setupMocks()
+
+			srv := NewNewsContentService(
+				mockLogger,
+				mockNewsAdapter,
+				mockPromptCreationAdapter,
+				mockImageGenerationAdapter,
+				mockSocialMediaAdapter,
+			)
+
+			err := srv.GenerateNewsContent(context.Background())
+
+			assert.Equal(t, tc.expectedError, err)
+			tearDownAdapters(&mockNewsAdapter.Mock,
+				&mockPromptCreationAdapter.Mock,
+				&mockImageGenerationAdapter.Mock,
+				&mockSocialMediaAdapter.Mock,
+				&mockLogger.Mock)
+		})
+	}
+}
+```
+
 ## Conclusion
 
-We've now implemented the core of the project. All that remains are the adapters that will implement the methods defined in the ports and wiring the application up and potentially adding a CLI or Lambda handler.
+We've now implemented the core of the project and added tests for the service layer. All that remains are the adapters that will implement the methods defined in the ports and wiring the application up. Potentially we'll add a CLI or Lambda handler.
