@@ -1,7 +1,7 @@
 ---
 title: "Hex Architecture & ChatGPT - Part 2, the first adapter"
 date: 2023-05-09
-description: "Lets prompt ChatGPT-4 to implement, and test an adapter that calls the New York Times API."
+description: "Lets prompt ChatGPT-4 to implement and test an adapter that calls the New York Times API."
 draft: false
 ---
 
@@ -15,7 +15,7 @@ Googling to learn the best way of obtaining news content from New York Times is 
 
 ### Initial prompt
 
-I added some documentation to the NewsAdapter port in an attempt to guide ChatGPT, and then copied what I thought was all the content it needed.
+I added some documentation to the NewsAdapter port in an attempt to guide ChatGPT, and then copied what I thought was all relevant code it would need to perform this task.
 
 ```go
 I am creating an application in golang following the principals of hexagonal architecture. I would like for you to create an NewYorkTime news adapter that fits the following interface.
@@ -52,7 +52,7 @@ type Date struct {
 This adapter will implement `GetMainArticle`.
 ```
 
-ChatGPT responded with what appeared to be functional code, although it did use some depreciated methods, along with instructions on obtaining a NYTimes API key. I created an `internal/adapters` directory and placed the provided code there.
+ChatGPT responded with what appeared to be functional code (although it did use some depreciated methods) along with instructions on obtaining a NYTimes API key. I created an `internal/adapters` directory and placed the provided code there.
 
 ![chatGPT newsAdapter Response](https://cdn.ericcbonet.com/chatgpt-newsAdapter-response.png)
 
@@ -66,7 +66,7 @@ thanks, can you now wire this adapter up for me in a main.go file, so I can test
 
 ![debugger prompt](https://cdn.ericcbonet.com/debugger-prompt.png)
 
-After changing a few imports in the adapter and `cmd/debugger/main.go` code, I tested the code in my goland debugger, and it worked! 
+After changing a few imports in the adapter and adding the main function it wrote to `cmd/debugger/main.go` code, I tested the code in my goland debugger, and it worked! 
 
 ![chatGPT new york times test](https://cdn.ericcbonet.com/debugging-chatgpt-code.png)
 
@@ -171,15 +171,23 @@ type NYTArticle struct {
 
 ### ChatGPT's Tests
 
-I've included the start and end of the response ChatGPT made [the entire test is here](https://github.com/BaronBonet/content-generator/blob/main/internal/adapters/newsadapter_nytimes_test.go). I like how it decided to slightly change the implementation of the adapter to make it more testable this required a couple of minutes of work on my end to switch things around but worth it to have a few tests for this adapter. 
+I've included the start and end of the response ChatGPT made [the entire test is here](https://github.com/BaronBonet/content-generator/blob/main/internal/adapters/newsadapter_nytimes_test.go). I like how it decided to slightly change the implementation of the adapter, by making the NYTime adapter depend on an httpClient interface, to make it more testable. If this was a real project I would further refactor the test to have [mockery](https://github.com/vektra/mockery) generate the MockClient.
 
 ![ChatGPT Test Response](https://cdn.ericcbonet.com/chatgpt-writes-test.png)
 ...
 ![ChatGPT Test Response Part 2](https://cdn.ericcbonet.com/chatgpt-writes-test-part-2.png)
 
-### Current State of the Project
+## Conclusion
 
-I think I spent 10-15 minutes actually creating this adapter. The most time-consuming parts were registering up for the New York Times API (which was easy and took only a couple of minutes) and waiting for ChatGPT to respond.
+We've now implemented the first of four adapters, with the following workflow:
+- Document the adapter port we want implemented
+- Copy the documented port and any other relevant code to ChatGPT
+- Test that the code ChatGPT wrote works functionally through the debugger. Note: I use this step because ChatGPT sometime hallucinates and uses public methods that don't exist or do the wrong thing. 
+- Write unit tests for the adapter.
+
+I'll use this same workflow to implement the other 3 adapters. 
+
+### Current state of the project
 
 ```
 .
@@ -200,4 +208,5 @@ I think I spent 10-15 minutes actually creating this adapter. The most time-cons
         │   └── service.go
         └── service
             └── service.go
+            └── service_test.go
 ```
