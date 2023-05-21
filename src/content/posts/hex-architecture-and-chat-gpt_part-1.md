@@ -19,6 +19,13 @@ This post doesn't aim to teach hexagonal architecture, but numerous excellent re
   * Eric Evans book, Domain-Driven Design Tacking Complexity in the Heart of Software
   * Uncle Bob's book, Clean Architecture: A Craftsman's Guide to Software Structure and Design
 
+### A common drawback of hexagonal architecture
+
+One often heard downside of hexagonal architecture is that it comes with a higher cost of building and maintaining an application. Take a simple example of creating a GET endpoint in REST that fetches data from a repository based on some filters. With hexagonal architecture you'll to pass the filters down 2 layers (HTTP driver -> service -> repository) and pass the extracted data back up again (repository -> service -> HTTP driver). This can create more code. 
+
+However, with tools like [Copilot](https://github.com/features/copilot) I find that doing all of these translations is fast and painless since Copilot can autofill most of it for me. 
+
+
 ## The project
 
 I was talking with a friend about ridiculous things to build, and we came up with the idea of creating a bot that would:
@@ -70,11 +77,11 @@ import (
 )
 
 type service struct {
-	logger             ports.Logger
-	newsAdapter        ports.NewsAdapter
-	llmAdapter         ports.LLMAdapter
-	generationAdapter  ports.ImageGenerationAdapter
-	socialMediaAdapter ports.SocialMediaAdapter
+	logger                  ports.Logger
+	newsAdapter             ports.NewsAdapter
+	llmAdapter              ports.LLMAdapter
+	imageGenerationAdapter  ports.ImageGenerationAdapter
+	socialMediaAdapter      ports.SocialMediaAdapter
 }
 
 func (srv *service) GenerateNewsContent(ctx context.Context) error {
@@ -88,7 +95,7 @@ func (srv *service) GenerateNewsContent(ctx context.Context) error {
 		srv.logger.Error(ctx, "Error when creating image prompt", "error", err)
 		return err
 	}
-	localImage, err := srv.generationAdapter.GenerateImage(ctx, imagePrompt)
+	localImage, err := srv.imageGenerationAdapter.GenerateImage(ctx, imagePrompt)
 	if err != nil {
 		srv.logger.Error(ctx, "Error when generating image", "error", err)
 		return err
@@ -197,14 +204,10 @@ type Service interface {
 ```go
 package ports
 
-import (
-	"context"
-)
-
 type Logger interface {
-	Debug(ctx context.Context, msg string, keysAndValues ...interface{})
-	Info(ctx context.Context, msg string, keysAndValues ...interface{})
-	Error(ctx context.Context, msg string, keysAndValues ...interface{})
+	Debug(msg string, keysAndValues ...interface{})
+	Info(msg string, keysAndValues ...interface{})
+	Error(msg string, keysAndValues ...interface{})
 }
 ```
 
@@ -217,7 +220,7 @@ A `//go:generate` directive can be added above our interfaces in the `ports` fol
 ```go
 //go:generate mockery --name=Logger
 type Logger interface {
-   	Debug(ctx context.Context, msg string, keysAndValues ...interface{})
+   	Debug(msg string, keysAndValues ...interface{})
    	...
    }
 ```
@@ -293,4 +296,4 @@ func TestService_GenerateNewsContent(t *testing.T) {
 
 ## Conclusion
 
-We've now implemented the core of the project and added tests for the service layer. All that remains are the adapters that will implement the methods defined in the ports and wiring the application up. Potentially we'll add a CLI or Lambda handler.
+We've now implemented the core of the project and added tests for the service layer. The next step in this project is creating the adapters implementing the methods defined in the ports.
