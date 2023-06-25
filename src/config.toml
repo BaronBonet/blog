@@ -16,6 +16,7 @@ paginate = 10
   showMenuItems = 2
   # Enable to show reading time in minutes for posts
   showReadingTime = false
+  utterances = true
 
 [languages]
   [languages.en]
