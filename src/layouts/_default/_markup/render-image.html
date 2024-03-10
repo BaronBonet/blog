@@ -1,0 +1,19 @@
+{{ $image := (printf "%s" (.Destination | safeURL)) }}
+{{ $alt := .PlainText | safeHTML }}
+{{ $caption := "" }}
+{{ with .Title }}
+{{ $caption = . | safeHTML }}
+{{ end }}
+<figure>
+  {{ with $image }}
+  <a href="{{ $image}}">
+    <img src="{{ $image}}"
+      alt="{{ if $alt }}{{ $alt }}{{ else if $caption }}{{ $caption | markdownify | plainify }}{{ else }}&nbsp;{{ end }}"
+    >
+
+  </a>
+  {{ end }}
+  {{ with $caption }}
+  <figcaption style="text-align: center;">{{ . | markdownify }}</figcaption>
+  {{ end }}
+</figure>

@@ -6,3 +6,4 @@ _gen
 public
 *.zip
 .DS_Store
+images/
