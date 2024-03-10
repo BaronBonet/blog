@@ -6,7 +6,7 @@ guard-%:
 
 .PHONY: dev
 dev:
-	cd src && hugo server
+	@cd src && hugo server
 
 # Needed since cloudfront doesn't know how to handle hugo's pretty urls
 .PHONY: create-edge-function

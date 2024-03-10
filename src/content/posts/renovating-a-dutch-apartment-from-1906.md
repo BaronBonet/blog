@@ -20,12 +20,12 @@ During Covid (2020 and 2021) my partner and I renovated the top floor of a Rotte
 
 We bought the top two floors of a 4 story house at the start of Covid and started the renovation in the summer of 2020. We lived in the lower level during the entirety of the renovation. The renovation took approximately 1.5 years to complete since we did most of the work ourselves and were working full time.
 
-### Planning and Permits (Pre-Construction)
+### Pre-Construction: Planning and Permits, 6 months 
 
 - Obtain approval from the VVE. The VVE is the association of owners of the building. We had to present our plans to the VVE and obtain their approval.
 - Secured building permits from the municipality of Rotterdam. This required architectural drawings and structural calculations. Luckily I have a bachelors in architectural engineering and a masters in structural engineering so I was able to do this myself.
 
-  {{< details "Drawings" >}}
+  {{< details "**Expand to see the drawings*" >}}
   ![elevation view](https://cdn.ericcbonet.com/elevation-view.jpg)
 
   ![plan view](https://cdn.ericcbonet.com/plan-drawings.jpg)
@@ -33,7 +33,7 @@ We bought the top two floors of a 4 story house at the start of Covid and starte
   ![detail view](https://cdn.ericcbonet.com/details-view.jpg)
   {{< /details >}}
 
-### Demolition (Phase 1, 4 months)
+### Phase 1: Demolition , 4 months
 
 We were quite confident the permit would be approved so we started interior demolition prior to approval.
 
@@ -42,6 +42,29 @@ We were quite confident the permit would be approved so we started interior demo
 
 We rented about 5 dumpsters to remove all the debris. We did this in stages, destroy parts of the house and make a pile of debris in the space until it became difficult to continue, then rent a 10m3 dumpster and a moving lift and get some friends to help for an hour ferrying the debris to the dumpster with the lift. Luckily for us due to Covid we had a lot of friends with time on their hands.
 
+![beginning](https://cdn.ericcbonet.com/rotterdam-renovation/beginning.jpg "The beginning")
+![beginning destruction](https://cdn.ericcbonet.com/rotterdam-renovation/beginning-destruction.jpg)
+![removing kitchen](https://cdn.ericcbonet.com/rotterdam-renovation/removing-kitchen.jpg)
+![removing flooring](https://cdn.ericcbonet.com/rotterdam-renovation/removing-flooring.jpg)
+![destroying shower](https://cdn.ericcbonet.com/rotterdam-renovation/destroying-shower.jpg)
+![removing tiles](https://cdn.ericcbonet.com/rotterdam-renovation/removing-tiles.jpg)
+![interior walls cleared](https://cdn.ericcbonet.com/rotterdam-renovation/interior-walls-cleared.jpg)
+![front facade cleared out](https://cdn.ericcbonet.com/rotterdam-renovation/front-facade-cleared-out.jpg)
+
+![removing chimney inside](https://cdn.ericcbonet.com/rotterdam-renovation/removing-chimney-inside.jpg)
+![arpad and geoff destroy chimney](https://cdn.ericcbonet.com/rotterdam-renovation/arpad-geoff-destroy-chimney.jpg)
+![geoff and arpad building platform](https://cdn.ericcbonet.com/rotterdam-renovation/geoff-and-arpad-building-platform.jpg)
+![geoff and arpad brick by brick](https://cdn.ericcbonet.com/rotterdam-renovation/geoff-and-arpad-brick-by-brick.jpg)
+![chimney almost destroyed](https://cdn.ericcbonet.com/rotterdam-renovation/chimney-almost-destroyed.jpg)
+![destroying staircase wall](https://cdn.ericcbonet.com/rotterdam-renovation/destroying-staircase-wall.jpg)
+![planning truss build](https://cdn.ericcbonet.com/rotterdam-renovation/planning-truss-build.jpg)
+![look under floor](https://cdn.ericcbonet.com/rotterdam-renovation/look-under-floor.jpg)
+
+![final chimney](https://cdn.ericcbonet.com/rotterdam-renovation/final-chimney.jpg)
+
+![brick wall removing plaster](https://cdn.ericcbonet.com/rotterdam-renovation/brick-wall-removing-plaster.jpg)
+![removing 1st chimney](https://cdn.ericcbonet.com/rotterdam-renovation/removing-1st-chimney.jpg)
+
 ### Prepare back facade (Phase 2, 1 month)
 
 The back of the house was going to be all glass with sliding doors to the balcony. The length of the balcony was also going to be increased and partially covered by the roof.
@@ -49,6 +72,26 @@ The back of the house was going to be all glass with sliding doors to the balcon
 - Created a new truss which would support the roof and dormers once the exterior brick wall was removed.
 - Demolished the exterior brick wall
 - Build a temporary facade to protect the interior from the elements until the new facade was installed.
+- Fix flooring where the old brick wall was removed.
+- Install beam that will create foundation for the sliding door
+
+![fabricating truss](https://cdn.ericcbonet.com/rotterdam-renovation/fabricating-truss.jpg)
+
+![chipping away at truss](https://cdn.ericcbonet.com/rotterdam-renovation/chipping-away-at-truss.jpg)
+![thinking through truss](https://cdn.ericcbonet.com/rotterdam-renovation/thinking-through-truss.jpg)
+![installing truss top chord](https://cdn.ericcbonet.com/rotterdam-renovation/installing-truss-top-chord.jpg)
+![painting truss](https://cdn.ericcbonet.com/rotterdam-renovation/painting-truss.jpg)
+
+![planning top chord](https://cdn.ericcbonet.com/rotterdam-renovation/planning-top-chord.jpg)
+
+![truss roughly assembled](https://cdn.ericcbonet.com/rotterdam-renovation/truss-roughly-assembled.jpg)
+![destroy back facade](https://cdn.ericcbonet.com/rotterdam-renovation/destroy-back-facade.jpg)
+![rotten wood within old wall](https://cdn.ericcbonet.com/rotterdam-renovation/rotten-wood-within-old-wall.jpg)
+![level new flooring](https://cdn.ericcbonet.com/rotterdam-renovation/level-new-flooring.jpg)
+![fix balcony floor](https://cdn.ericcbonet.com/rotterdam-renovation/fix-balcony-floor.jpg)
+![destroying dormer wall](https://cdn.ericcbonet.com/rotterdam-renovation/destroying-dormer-wall.jpg)
+
+
 
 ### Dormer Construction (Phase 3, 4 months)
 
@@ -76,7 +119,7 @@ We did this in winter which made the process a bit more difficult because it rai
 - Leveled the floor: Used self-leveling concrete for a perfect base.
 - Completed painting and trim: Applied caulk, painted walls and ceilings, and installed skirting boards.
 
-### Final Touches (Phase 5. 2 months)
+### Final Touches (Phase 5, 2 months)
 
 - Assembled the Ikea kitchen: Completed the heart of the home.
 - Tiled the bathroom: Installed the toilet and other bathroom fixtures.
