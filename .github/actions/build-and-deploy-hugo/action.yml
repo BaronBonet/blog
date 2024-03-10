@@ -8,17 +8,15 @@ inputs:
     required: true
   hugo-version:
     required: false
-    type: string
     default: "0.89.4"
   domain-name:
     required: true
-    type: string
   s3-bucket-name:
     required: true
   deploy:
     description: Whether to deploy the Hugo blog to S3, use 'true' or 'false'
     required: false
-    default: false
+    default: 'false'
 
 runs:
   using: composite
