@@ -159,7 +159,7 @@ The construction of the Dormers was the most time intensive part of the project.
 
 - Built each dormer in stages:
   - Remove all roof tiles for that side of the A-frame and remove the part of the roof where the fill beam would be installed, two per dormer on either end.
-  - Fabricate and install the fill beams on the front and back of the dormer. 
+  - Fabricate and install the fill beams on the front and back of the dormer.
   - demolished the roof
   - install the framing and multiplex walls and ceiling. We used 18mm multiplex for the walls which also server to withstand the lateral loads from wind
   - construct parquet: according to our permit this needed to be the same height as our neighbors dormer. Because our house was not level, but our neighbors was, the parquet on our roof did not have a uniform height.
@@ -169,6 +169,7 @@ The construction of the Dormers was the most time intensive part of the project.
 - Reinstall roof tiles: This required a lot of cutting of tiles to fit around the dormers.
 
 #### Fabricating and installing fill beams
+
 ![expose](https://cdn.ericcbonet.com/rotterdam-renovation/expose.jpg "exposing the so we can install the fill beam, huge thanks to our friend Ivan who helped out on almost all stages of the project")
 ![supporting joist](https://cdn.ericcbonet.com/rotterdam-renovation/supporting-joist.jpg "Installed a temporary column to support the joist before the fill beam was installed.")
 ![fabricating joist](https://cdn.ericcbonet.com/rotterdam-renovation/fabricating-joist.jpg "We decided to use a type of a lap joint...honestly not sure what the official name of the joint was. My friend Arpad, who's also a structural engineer came over to help figure out how to make it work.")
@@ -180,16 +181,63 @@ The construction of the Dormers was the most time intensive part of the project.
 
 ![bottom fill beam fabrication](https://cdn.ericcbonet.com/rotterdam-renovation/bottom-fill-beam-fabrication.jpg "Sketching out the part of the fill beam that would be embedded in the masonry wall. Looking back on this all I can think is 'could I really not find a carpenters pencil?")
 
-![fill beam embedded in wall](https://cdn.ericcbonet.com/rotterdam-renovation/fill-beam-embedded-in-wall.jpg "the bottom part of the fill beam was fabricated and installed so it was supported by the existing masonry wall")
+![fill beam embedded in wall](https://cdn.ericcbonet.com/rotterdam-renovation/fill-beam-embedded-in-wall.jpg "the bottom part of the fill beam embedded in the masonry wall")
 
 #### Dormer fabrication
 
 ![removing roof](https://cdn.ericcbonet.com/rotterdam-renovation/removing-roof.jpg "removing the 1st section of the roof...on a grey day in Holland, would have made our lives much easier if we waited for better weather but we wanted to keep the project moving.")
 
-![framing first dormer](https://cdn.ericcbonet.com/rotterdam-renovation/framing-first-dormer.jpg "Our fried Nils came to help frame the first dormer, we did this one in 4 stages since we didn't want to expose that whole side of the house to the elements at once....we also needed to figure out how everthing would fit together.")
+![removing old dormer](https://cdn.ericcbonet.com/rotterdam-renovation/removing-old-dormer.jpg "We worked into the night removing the old dormer")
 
-![fabricating wall in place](https://cdn.ericcbonet.com/rotterdam-renovation/fabricating-wall-in-place.jpg "Here we're fabricating everything in place, by the time we got to the second side we'd have a whole 3.3 meter length of wall prefabricated on the floor then just lift it into place.")
+![framing first dormer](https://cdn.ericcbonet.com/rotterdam-renovation/framing-first-dormer.jpg "Our fried Nils came to help frame the first dormer, we did this one in 4 stages since we didn't want to expose that whole side of the house to the elements at once....we also needed to figure out how everything would fit together.")
 
+![fabricating wall in place](https://cdn.ericcbonet.com/rotterdam-renovation/installing-second-section.jpg "Here we're fabricating everything in place, by the time we got to the second side we did a lot more pre-fabrication")
+
+![final section of 1st dormer](https://cdn.ericcbonet.com/rotterdam-renovation/final-section-of-first-dormer.jpg "Framing the 1st dormer took around five days.")
+
+![installing roof](https://cdn.ericcbonet.com/rotterdam-renovation/installing-roof.jpg "For the 1st dormer we used OSB for the roof which was a mistake, it's cheaper than multiplex but the tongue and groove didn't fit together well and it was a pain to get the pieces to fit snug.")
+
+![temporary waterproofing](https://cdn.ericcbonet.com/rotterdam-renovation/temporary-waterproofing.jpg "The roof was like this for a week and it created a lot of headache because as best I tried I couldn't keep all the water out. Luckily the roof was 'house level' so water naturally went to the corner where we'd install the drain.")
+
+![installing bitumen](https://cdn.ericcbonet.com/rotterdam-renovation/installing-bitumen.jpg "We outsourced installing the bitumen.")
+
+![cleaned roof](https://cdn.ericcbonet.com/rotterdam-renovation/cleaned-roof.jpg "Here all the tiles, batons and waterproofing was removed. Having learned our lesson from the other side we pre-installed the new Tyvek across the roof ridge.")
+
+![Messy space from roof](https://cdn.ericcbonet.com/rotterdam-renovation/messy-space-from-roof.jpg "While the roof was clean the inside of the space was a mess.")
+
+![removing the wooden planks](https://cdn.ericcbonet.com/rotterdam-renovation/removing-the-wooden-planks.jpg "To remove the roof we would just make a cut along the top joist then hit each plank with a mallet until they would rip out from the nails. Some of the planks were in really bad shape, in hindsight we probably should have removed the planks from ridge as well and replace them with multiplex...but the project already seemed really big.")
+
+![exposed space](https://cdn.ericcbonet.com/rotterdam-renovation/exposed-space.jpg "This time we took the whole roof off at once.")
+
+![exposed roof](https://cdn.ericcbonet.com/rotterdam-renovation/exposed-roof.jpg "With the whole roof removed it was really easy to bring in material from the lift.")
+
+![starting on second dormer](https://cdn.ericcbonet.com/rotterdam-renovation/starting-on-second-dormer.jpg "We had sun while doing the second dormer but I remember it being very cold")
+
+![columns on second dormer](https://cdn.ericcbonet.com/rotterdam-renovation/columns-on-second-dormer.jpg)
+
+![feet hanging through dormer](https://cdn.ericcbonet.com/rotterdam-renovation/feet-hanging-through-dormer.jpg)
+
+![working together](https://cdn.ericcbonet.com/rotterdam-renovation/working-together.jpg "it was cold")
+
+![drone shot of roof](https://cdn.ericcbonet.com/rotterdam-renovation/drone-shoot-of-roof.jpg "Are neighbor had a drone and was kind enough to send us some photos while we were building this dormer")
+
+![happy to be almost done](https://cdn.ericcbonet.com/rotterdam-renovation/happy-to-be-almost-done.jpg "I was happy to be almost done with framing this dormer")
+
+![dormer roof](https://cdn.ericcbonet.com/rotterdam-renovation/dormer-roof.jpg "here we're putting on the multiplex roof and walls")
+
+
+![re doing walls](https://cdn.ericcbonet.com/rotterdam-renovation/re-doing-walls.jpg "after we had both dormers framed I remember having a sudden realization 'what if water penetrates the facade...it will drip down the wood and get under the zinc gutter??'. So I decided to remove all the multiplex from the lower part of the dormer walls and install led under it.")
+
+![detail of buildup](https://cdn.ericcbonet.com/rotterdam-renovation/detail-of-buildup.jpg "This was the detail for weather proofing the walls")
+
+![preparing parapet wall](https://cdn.ericcbonet.com/rotterdam-renovation/pereparing-partition-wall.jpg "Installing the parapet wall, it had to be really low on the back side, which was about 14cm taller than the front facade.")
+
+![winter got inside](https://cdn.ericcbonet.com/rotterdam-renovation/winter-got-inside.jpg "It got so cold the canals froze and you could go skating, snow also got inside our workspace.")
+
+- outside walls
+- final photo and mention of contractor installing n
+
+![phase 3 dormer complete](https://cdn.ericcbonet.com/rotterdam-renovation/phase-3-dormer-complete.jpg "The space felt so much larger with the dormers installed. We had a contractor fix the exhausts for the water heaters. With the shell done we 'just' had to finish the interior.")
 
 
 ### Interior Construction (Phase 4, 6 months)
