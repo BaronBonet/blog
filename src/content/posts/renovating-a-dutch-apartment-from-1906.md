@@ -18,7 +18,7 @@ During Covid (2020 and 2021) my partner and I renovated the top floor of a Rotte
 
 ## The Renovation Journey
 
-We bought the top two floors of a 4 story house at the start of Covid and started the renovation in the summer of 2020. We lived in the lower level during the entirety of the renovation. The renovation took approximately 1.5 years to complete since we did most of the work ourselves and were working full time.
+We bought the top two floors of a 4 story house at the start of Covid and started the renovation in the summer of 2020. We lived in the lower level during the entirety of the renovation. The renovation took approximately 1.5 years to complete since we did most of the work ourselves and were working full time. One notable detail that made this project challenging was the concept of "house level" the house had settled so the front (north side) of the house was 14cm lower than the back and the west side was 7cm higher than the east.
 
 ### Pre-Construction: Planning and Permits, 6 months 
 
@@ -85,56 +85,112 @@ Destroying chimneys was fun, after my partner and I did the 1st one together the
 
 ![chimney almost destroyed](https://cdn.ericcbonet.com/rotterdam-renovation/chimney-almost-destroyed.jpg "here you can see how we filled the holes with towels to prevent debris from falling into the chimney")
 
-
-
+![temporary chimney cover](https://cdn.ericcbonet.com/rotterdam-renovation/temporary-chimney.jpg "once again not something I'm proud of, but it was only like there for a few winter months")
 
 ### Prepare back facade (Phase 2, 1 month)
 
 The back of the house was going to be all glass with sliding doors to the balcony. The length of the balcony was also going to be increased and partially covered by the roof.
 
-- Created a new truss which would support the roof and dormers once the exterior brick wall was removed.
+- Created a new truss in place which would carry the loads from the roof and dormers once the exterior brick wall was removed.
 - Demolished the exterior brick wall
 - Build a temporary facade to protect the interior from the elements until the new facade was installed.
 - Fix flooring where the old brick wall was removed.
 - Install beam that will create foundation for the sliding door
+- Put bitumen on the new balcony floor.
 
-![brick wall removing plaster](https://cdn.ericcbonet.com/rotterdam-renovation/brick-wall-removing-plaster.jpg)
+![brick wall removing plaster](https://cdn.ericcbonet.com/rotterdam-renovation/brick-wall-removing-plaster.jpg "we removed the plaster before the truss was installed because it much easier to destroy the wally when the plaster is already off. We also got some wood to fix all the holes in the floor.")
 
-![fabricating truss](https://cdn.ericcbonet.com/rotterdam-renovation/fabricating-truss.jpg)
+#### The truss
 
-![chipping away at truss](https://cdn.ericcbonet.com/rotterdam-renovation/chipping-away-at-truss.jpg)
-![thinking through truss](https://cdn.ericcbonet.com/rotterdam-renovation/thinking-through-truss.jpg)
-![installing truss top chord](https://cdn.ericcbonet.com/rotterdam-renovation/installing-truss-top-chord.jpg)
-![painting truss](https://cdn.ericcbonet.com/rotterdam-renovation/painting-truss.jpg)
-![temporary chimney cover](https://cdn.ericcbonet.com/rotterdam-renovation/temporary-chimney.jpg "once again not something I'm proud of, but it was only like there for a few winter months")
+![truss wood on site](https://cdn.ericcbonet.com/rotterdam-renovation/truss-wood-on-site.jpg "bringing the wood up felt like a major milestone, before this we were only getting stuff out of the space.")
 
-![planning truss build](https://cdn.ericcbonet.com/rotterdam-renovation/planning-truss-build.jpg)
-![look under floor](https://cdn.ericcbonet.com/rotterdam-renovation/look-under-floor.jpg)
+![fabricating truss](https://cdn.ericcbonet.com/rotterdam-renovation/fabricating-truss.jpg "fabrication where the top of the rafters met")
 
-![planning top chord](https://cdn.ericcbonet.com/rotterdam-renovation/planning-top-chord.jpg)
+![chipping away at truss](https://cdn.ericcbonet.com/rotterdam-renovation/chipping-away-at-truss.jpg "started by making cuts with the chop saw at a set depth, then remove all the left over pieces, and chisel and sand the rest")
 
-![truss roughly assembled](https://cdn.ericcbonet.com/rotterdam-renovation/truss-roughly-assembled.jpg)
-![destroy back facade](https://cdn.ericcbonet.com/rotterdam-renovation/destroy-back-facade.jpg)
-![rotten wood within old wall](https://cdn.ericcbonet.com/rotterdam-renovation/rotten-wood-within-old-wall.jpg)
-![level new flooring](https://cdn.ericcbonet.com/rotterdam-renovation/level-new-flooring.jpg)
-![fix balcony floor](https://cdn.ericcbonet.com/rotterdam-renovation/fix-balcony-floor.jpg)
-![destroying dormer wall](https://cdn.ericcbonet.com/rotterdam-renovation/destroying-dormer-wall.jpg)
+![truss-test-piece](https://cdn.ericcbonet.com/rotterdam-renovation/truss-test-piece.jpg "my first attempt at fabricating the rafter didn't work I ended up using that as a template moving forward")
+
+![truss worksite overview](https://cdn.ericcbonet.com/rotterdam-renovation/truss-worksite-overview.jpg "in hindsight having the whole space as my private workshop was a luxury, I miss that at times now")
+
+![contemplating truss](https://cdn.ericcbonet.com/rotterdam-renovation/contemplating-truss.jpg "I spent a lot of time thinking about the truss...")
+
+![drilling holes](https://cdn.ericcbonet.com/rotterdam-renovation/drilling-holes.jpg "Since the truss was built in place I sandwiched the rafter and strut together. In theory this wasn't necessary since all the load should be transferred through the strut but this was the geometry the original trusses had and it would keep the structure together if there was some out-of-plane force")
+
+![truss roughly assembled](https://cdn.ericcbonet.com/rotterdam-renovation/truss-roughly-assembled.jpg "the truss was bolted together but we still had to make the final cuts to all the horizontal elements and paint them")
+
+![painting truss](https://cdn.ericcbonet.com/rotterdam-renovation/painting-truss.jpg "We painted the truss with a boat lack because we wanted to keep the wood color, In hindsight we should have painted it white right away the parts of the truss facing the sun are now greying, we're probably going to sand and re-paint it this summer")
+
+![installing truss top chord](https://cdn.ericcbonet.com/rotterdam-renovation/installing-truss-top-chord.jpg "Here we're doing the final assembly of the truss. The top chord, also sandwiched the rafters, I wanted to make a mortise and tenon joint but I don't think it would have been possible to install the truss with the roof still in place.")
+
+#### Demolishing the back facade
+
+With the truss in place the next step as to destroy the back facade. Then I'd put my engineering to the test because with the facade gone the truss would be holding the roof up.
+
+![beginning facade demolition](https://cdn.ericcbonet.com/rotterdam-renovation/beginning-facade-demolition.jpg "We started demolishing the facade as it was raining out. The oversized triangle in front of the truss would be the new facade wall. We cannibalized the truss template for this.")
+
+![brick facade](https://cdn.ericcbonet.com/rotterdam-renovation/brick-facade.jpg "the wall was 25cm thick, but just like the chimneys once the first few bricks were removed the wall could be picked apart by hand")
+
+![facade gone](https://cdn.ericcbonet.com/rotterdam-renovation/facade-gone.jpg)
+
+![rotten wood within old wall](https://cdn.ericcbonet.com/rotterdam-renovation/rotten-wood-within-old-wall.jpg "For more than 100 years the wood on the joists was embedded in the brick wall, much of this wood turned to powder when the wall was removed.")
+
+![bags of bricks](https://cdn.ericcbonet.com/rotterdam-renovation/bags-of-bricks.jpg "In one days worth of work we destroyed the entire back facade and bagged all the bricks, It was late and I was exhausted in this photo")
 
 
+#### Fix flooring
+
+Removing the wall created some new issues, the mason wall was resting on 2 steel steel channels that formed an I profile there was a 2-8cm gap between the steel channels and the sub floor, this had to be filled in, then because this part of the deck was outside we needed to ensure everything sloped towards the drain.
+
+![steel supporting facade](https://cdn.ericcbonet.com/rotterdam-renovation/steel-supporting-facade.jpg "these channels were extremely rusted i think i removed kilos of rust from the top flange")
+
+![leveling floor](https://cdn.ericcbonet.com/rotterdam-renovation/leveling-floor.jpg)
+
+![leveling floor elevation](https://cdn.ericcbonet.com/rotterdam-renovation/leveling-floor-elevation.jpg "ensuring water will slope away from the new facade")
+
+![leveling material](https://cdn.ericcbonet.com/rotterdam-renovation/leveling-material.jpg "we used a small aggregate to ensure the 18mm plywood that would form the sub flooring of the deck was fully supported")
+
+![plates added sloped floor](https://cdn.ericcbonet.com/rotterdam-renovation/plates-added-sloped-floor.jpg "with the floor in place the next step would be replacing all the bitumen and adding the deck." )
+
+![temp facade](https://cdn.ericcbonet.com/rotterdam-renovation/temp-facade.jpg "we were heading into fall which is one of the many rainy seasons  in Holland, so we made a temp facade to keep the workspace dry.")
 
 ### Dormer Construction (Phase 3, 4 months)
 
-We did this in winter which made the process a bit more difficult because it rained so much. We had to cover the roof with a tarp and work under it until the structure was ready for waterproofing. I took one week off for each dormer and worked very long days.
+The construction of the Dormers was the most time intensive part of the project. Once the roof was removed we had to get the structure up and waterproofed fast. I recall waking up one night to the sound of dripping only to run upstairs and discover a pool of water in the workshop, because one of the tarps had a leek. I took one week off for each dormer and worked very long days the rough process for this was:
 
 - Built each dormer in stages:
-  - Remove all roof tiles for that side of the A-frame
-  - demolished one side
-  - constructed structural wooden elements for dormer extension and multiplex ceiling and walls
+  - Remove all roof tiles for that side of the A-frame and remove the part of the roof where the fill beam would be installed, two per dormer on either end.
+  - Fabricate and install the fill beams on the front and back of the dormer. 
+  - demolished the roof
+  - install the framing and multiplex walls and ceiling. We used 18mm multiplex for the walls which also server to withstand the lateral loads from wind
   - construct parquet: according to our permit this needed to be the same height as our neighbors dormer. Because our house was not level, but our neighbors was, the parquet on our roof did not have a uniform height.
   - Install battens, water barrier and exterior cladding
   - waterproofed the roof and parquet with bitumen and flashing.
 - Install Tyvek on the roof ridge, battens
 - Reinstall roof tiles: This required a lot of cutting of tiles to fit around the dormers.
+
+#### Fabricating and installing fill beams
+![expose](https://cdn.ericcbonet.com/rotterdam-renovation/expose.jpg "exposing the so we can install the fill beam, huge thanks to our friend Ivan who helped out on almost all stages of the project")
+![supporting joist](https://cdn.ericcbonet.com/rotterdam-renovation/supporting-joist.jpg "Installed a temporary column to support the joist before the fill beam was installed.")
+![fabricating joist](https://cdn.ericcbonet.com/rotterdam-renovation/fabricating-joist.jpg "We decided to use a type of a lap joint...honestly not sure what the official name of the joint was. My friend Arpad, who's also a structural engineer came over to help figure out how to make it work.")
+![lap joint joist](https://cdn.ericcbonet.com/rotterdam-renovation/lap-joint-joist.jpg "This is a view looking at the underside of the existing roof joist, the fill beams was going to rest into here")
+
+![fabricating the fill beam](https://cdn.ericcbonet.com/rotterdam-renovation/fabricating-the-fill-beam.jpg "Fabricating the fill beam")
+
+![installed fill beam](https://cdn.ericcbonet.com/rotterdam-renovation/installed-fillbeam.jpg "First of four fill beams installed")
+
+![bottom fill beam fabrication](https://cdn.ericcbonet.com/rotterdam-renovation/bottom-fill-beam-fabrication.jpg "Sketching out the part of the fill beam that would be embedded in the masonry wall. Looking back on this all I can think is 'could I really not find a carpenters pencil?")
+
+![fill beam embedded in wall](https://cdn.ericcbonet.com/rotterdam-renovation/fill-beam-embedded-in-wall.jpg "the bottom part of the fill beam was fabricated and installed so it was supported by the existing masonry wall")
+
+#### Dormer fabrication
+
+![removing roof](https://cdn.ericcbonet.com/rotterdam-renovation/removing-roof.jpg "removing the 1st section of the roof...on a grey day in Holland, would have made our lives much easier if we waited for better weather but we wanted to keep the project moving.")
+
+![framing first dormer](https://cdn.ericcbonet.com/rotterdam-renovation/framing-first-dormer.jpg "Our fried Nils came to help frame the first dormer, we did this one in 4 stages since we didn't want to expose that whole side of the house to the elements at once....we also needed to figure out how everthing would fit together.")
+
+![fabricating wall in place](https://cdn.ericcbonet.com/rotterdam-renovation/fabricating-wall-in-place.jpg "Here we're fabricating everything in place, by the time we got to the second side we'd have a whole 3.3 meter length of wall prefabricated on the floor then just lift it into place.")
+
+
 
 ### Interior Construction (Phase 4, 6 months)
 
@@ -186,4 +242,12 @@ Repaired the main roof: Fixed waterproofing at the peak, reinstalled roof tiles,
   - Tile the toilet room and install toilet and fixtures.
   - Install parquet flooring and skirting
   - Install kitchen appliances and counter tops.
+
+Dear Clèment,
+
+Thanks for answering. We're still interested and have a few more questions :)
+
+- Since I don't see a floor plan on the permit I'm assuming (as long as the exterior is not changed) we can do what we want (within reason e.g. changing walls or location of bathrooms) with the interior. Is this correct?
+- What would be the next steps
+- We would like to see the place is a virtual tour possible? After that I think we'd also want to visit the structure in person, we can arrange that quickly but wouldn't want to make a trip now if the property is sold.
 
