@@ -167,6 +167,7 @@ The construction of the Dormers was the most time intensive part of the project.
   - waterproofed the roof and parquet with bitumen and flashing.
 - Install Tyvek on the roof ridge, battens
 - Reinstall roof tiles: This required a lot of cutting of tiles to fit around the dormers.
+- Re-route the exhausts for the water heaters
 
 #### Fabricating and installing fill beams
 
@@ -219,14 +220,13 @@ The construction of the Dormers was the most time intensive part of the project.
 
 ![working together](https://cdn.ericcbonet.com/rotterdam-renovation/working-together.jpg "it was cold")
 
-![drone shot of roof](https://cdn.ericcbonet.com/rotterdam-renovation/drone-shoot-of-roof.jpg "Are neighbor had a drone and was kind enough to send us some photos while we were building this dormer")
+![drone shot of roof](https://cdn.ericcbonet.com/rotterdam-renovation/drone-shoot-of-roof.jpg "Our neighbor had a drone and was kind enough to send us some photos while we were building this dormer")
 
 ![happy to be almost done](https://cdn.ericcbonet.com/rotterdam-renovation/happy-to-be-almost-done.jpg "I was happy to be almost done with framing this dormer")
 
 ![dormer roof](https://cdn.ericcbonet.com/rotterdam-renovation/dormer-roof.jpg "here we're putting on the multiplex roof and walls")
 
-
-![re doing walls](https://cdn.ericcbonet.com/rotterdam-renovation/re-doing-walls.jpg "after we had both dormers framed I remember having a sudden realization 'what if water penetrates the facade...it will drip down the wood and get under the zinc gutter??'. So I decided to remove all the multiplex from the lower part of the dormer walls and install led under it.")
+![re doing walls](https://cdn.ericcbonet.com/rotterdam-renovation/re-doing-walls.jpg "after we had both dormers framed and walls installed when I was trying to sleep I started thinking 'what if water penetrates the facade...it will drip down the wood and get under the zinc gutter?'. So, to prevent this I remove all the multiplex from the lower part of the dormer walls and install led under it.")
 
 ![detail of buildup](https://cdn.ericcbonet.com/rotterdam-renovation/detail-of-buildup.jpg "This was the detail for weather proofing the walls")
 
@@ -234,14 +234,55 @@ The construction of the Dormers was the most time intensive part of the project.
 
 ![winter got inside](https://cdn.ericcbonet.com/rotterdam-renovation/winter-got-inside.jpg "It got so cold the canals froze and you could go skating, snow also got inside our workspace.")
 
-- outside walls
-- final photo and mention of contractor installing n
+![dormers fish eye](https://cdn.ericcbonet.com/rotterdam-renovation/dormers-fish-eye.jpg "the second dormers almost finished")
 
-![phase 3 dormer complete](https://cdn.ericcbonet.com/rotterdam-renovation/phase-3-dormer-complete.jpg "The space felt so much larger with the dormers installed. We had a contractor fix the exhausts for the water heaters. With the shell done we 'just' had to finish the interior.")
+![exterior wall with water proofing](https://cdn.ericcbonet.com/rotterdam-renovation/exterior-wall-with-waterproofing.jpg "covering the walls with waterproof breathable layer")
 
+![high pressure laminate](https://cdn.ericcbonet.com/rotterdam-renovation/high-pressure-laminate.jpg "We used high pressure laminate (HPL)for the exterior cladding, its ugly but should be maintenance free (besides cleaning) for 50 years. You need to tape where you're going to drill so the outer layer doesn't chip.")
+
+![hpl installed](https://cdn.ericcbonet.com/rotterdam-renovation/hpl-installed.jpg "The HPL installed")
+
+### Fix back facade (Phase 4, 1 month)
+
+- Construct the frame for the sliding glass doors
+- Install bitumen on the new balcony floor.
+- The parts of the joist which was in contact with the mason wall and the entire fascia board (boeiboord in Dutch) needed replacement.
+- Construct a new wooden deck for the balcony
+- Install sliding glass doors
+
+![figuring out where to install door frame](https://cdn.ericcbonet.com/rotterdam-renovation/figuring-out-where-to-install-door-frame.jpg "using a laser level to figure out where to install the top of the sliding door frame")
+
+![constructing frame](https://cdn.ericcbonet.com/rotterdam-renovation/constructing-frame.jpg "The old joists that we removed from the roof were still in great shape and straight so i reused them for creating the sides which the sliding door would frame into")
+
+![door frame complete](https://cdn.ericcbonet.com/rotterdam-renovation/door-frame-complete.jpg "Here the door frame is installed and our bitumen contractor and his son were taking a break before fixing the bitumen on the balcony")
+
+![installing bitumen on deck](https://cdn.ericcbonet.com/rotterdam-renovation/installing-bitumun-on-deck.jpg "almost finished installing the bitumen")
+
+![cutting boie board](https://cdn.ericcbonet.com/rotterdam-renovation/cutting-boie-board.jpg "the wood where the mason wall once stood was very rotten so we removed all the rotten wood")
+
+![view with facade removed](https://cdn.ericcbonet.com/rotterdam-renovation/view-with-facade-removed.jpg )
+
+![sanding joist that supports boie](https://cdn.ericcbonet.com/rotterdam-renovation/sanding-joist-that-supports-boie.jpg "we really didn't want to replace the joists so one we removed all the rot we sanded them into a OK looking profile")
+
+![fixing roof](https://cdn.ericcbonet.com/rotterdam-renovation/fixing-roof.jpg "we replaced the rotten roof boards, installed new Tyvek, battons and roofing tiles")
+
+![painting boie pieces](https://cdn.ericcbonet.com/rotterdam-renovation/painting-boie-pieces.jpg "first we cut all the fascia boards to size made sure they fit then painted them all. We had to build the 4.5 meter long fascia board in 2 pieces. It was 120 euros to rent the house lift. We could only fit 3 meter boards up the steep and narrow Dutch staircase. So for small projects like this we'd get material that we could carry ourselves and save the costs of the lift.")
+
+![installing boie](https://cdn.ericcbonet.com/rotterdam-renovation/installing-boie.jpg)
+
+![sanding joist](https://cdn.ericcbonet.com/rotterdam-renovation/sanding-joist.jpg "the ridge of the fascia was wrapped in lead for additional protection")
+
+![back fadade tiles](https://cdn.ericcbonet.com/rotterdam-renovation/back-fadade-tiles.jpg "View from the top of the dormer looking at the back facade. The roof tiles all had to be cut to fit and were covered in lead, a similar detail as the gutter detail shown above.")
+
+![installing decking](https://cdn.ericcbonet.com/rotterdam-renovation/installing-decking.jpg "Summer was on the way so we wanted to get the deck finished to start enjoying the new space. We wrapped the truss while spray painting the underside of the roof. In hind-sight we should have spray painted the truss as well.")
+
+![finishing decking](https://cdn.ericcbonet.com/rotterdam-renovation/finishing-decking.jpg)
+
+![deck pattern](https://cdn.ericcbonet.com/rotterdam-renovation/deck-pattern.jpg "I like how the pattern in the deck boards turned out, I now clean and re stain this every summer to prevent the deck from going grey.")
 
 ### Interior Construction (Phase 4, 6 months)
 
+- Sanding trusses
 - Insulated the floor: Installed 3cm of Fermacell insulation for improved thermal performance.
 - Exposed and treated existing beams: Sanded the trusses and beams for an aesthetic touch.
 - Framed interior and exterior walls: Created the new living space layout.
@@ -252,6 +293,10 @@ The construction of the Dormers was the most time intensive part of the project.
 - Leveled the floor: Used self-leveling concrete for a perfect base.
 - Completed painting and trim: Applied caulk, painted walls and ceilings, and installed skirting boards.
 
+![phase 3 dormer complete](https://cdn.ericcbonet.com/rotterdam-renovation/phase-3-dormer-complete.jpg "Since the start of the construction I couldn't wait for the moment to clean the trusses and bring them back to their natural color. I was so excited I started sanding them long before we should have.")
+
+
+
 ### Final Touches (Phase 5, 2 months)
 
 - Assembled the Ikea kitchen: Completed the heart of the home.
@@ -261,41 +306,4 @@ The construction of the Dormers was the most time intensive part of the project.
 
 Installed dormer cladding and skylights: Completed the dormer exteriors and added natural light to the upper floor.
 Repaired the main roof: Fixed waterproofing at the peak, reinstalled roof tiles, and replaced rotten wood.
-
-
-
-- Obtain process, requiring architectural drawings and structural calculations
-- Demolition of the interior spaces and the three old chimneys
-- Building a new truss which would support the roof and dormers once the exterior brick wall was removed
-- Demolishing the exterior brick wall
-- Replace rotten wood at the end of the gable roof.
-- Create the shell of the dormers:
-  - Demolishing one side of the A-frame, constructing the dormer for that side and waterproof the roof of the dormer.
-    - Repeat for the other side
-  - Install exterior cladding of both dormers
-  - Fix waterproofing of the peak of the roof and reinstall roof tiles and replace rotten wood.
-    - Install Velux skylights
-  - Install new windows and doors
-- Interior works:
-  - Install 3cm of Fermacell insulation across the floor
-  - Sand the existing trusses and beams
-  - Framing for interior walls and frame all the existing exterior walls
-  - Electrical and plumbing works
-  - Insulation and interior vapor barrier
-  - Finish walls with OSB, drywall and plaster
-  - Install floor heating
-  - Equalize the floor with self leveling concrete
-  - Caulk joints paint walls and ceiling
-  - Assemble the Ikea kitchen
-  - Tile the toilet room and install toilet and fixtures.
-  - Install parquet flooring and skirting
-  - Install kitchen appliances and counter tops.
-
-Dear Clèment,
-
-Thanks for answering. We're still interested and have a few more questions :)
-
-- Since I don't see a floor plan on the permit I'm assuming (as long as the exterior is not changed) we can do what we want (within reason e.g. changing walls or location of bathrooms) with the interior. Is this correct?
-- What would be the next steps
-- We would like to see the place is a virtual tour possible? After that I think we'd also want to visit the structure in person, we can arrange that quickly but wouldn't want to make a trip now if the property is sold.
 
