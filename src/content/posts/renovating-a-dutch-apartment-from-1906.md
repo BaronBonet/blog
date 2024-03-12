@@ -6,7 +6,7 @@ draft: false
 ---
 During Covid (2020 and 2021) my partner and I renovated the top floor of a Rotterdam house build in 1906. We added two 11.5 meter long dormers to either side of the structure transforming a A-frame attic apartment into a spacious loft.
 
-## Before and after photos
+# Before and after photos
 
 ![before looking to street](https://cdn.ericcbonet.com/rotterdam-renovation/before-looking-to-street.jpg)
 
@@ -16,11 +16,11 @@ During Covid (2020 and 2021) my partner and I renovated the top floor of a Rotte
 
 ![before outside](https://cdn.ericcbonet.com/rotterdam-renovation/before-outside.jpg)
 
-## The Renovation Journey
+# The Renovation Journey
 
 We bought the top two floors of a 4 story house at the start of Covid and started the renovation in the summer of 2020. We lived in the lower level during the entirety of the renovation. The renovation took approximately 1.5 years to complete since we did most of the work ourselves and were working full time. One notable detail that made this project challenging was the concept of "house level" the house had settled so the front (north side) of the house was 14cm lower than the back and the west side was 7cm higher than the east.
 
-### Pre-Construction: Planning and Permits, 6 months 
+## Pre-Construction: Planning and Permits, 6 months 
 
 - Obtain approval from the VVE. The VVE is the association of owners of the building. We had to present our plans to the VVE and obtain their approval.
 - Secured building permits from the municipality of Rotterdam. This required architectural drawings and structural calculations. Luckily I have a bachelors in architectural engineering and a masters in structural engineering so I was able to do this myself.
@@ -33,7 +33,7 @@ We bought the top two floors of a 4 story house at the start of Covid and starte
   ![detail view](https://cdn.ericcbonet.com/details-view.jpg)
   {{< /details >}}
 
-### Phase 1: Demolition , 4 months
+## Phase 1: Demolition , 4 months
 
 We were quite confident the permit would be approved so we started interior demolition prior to approval.
 
@@ -67,7 +67,7 @@ We would load all the building material in these burlap bags and either take the
 
 ![front facade cleared out](https://cdn.ericcbonet.com/rotterdam-renovation/front-facade-cleared-out.jpg "it was a great feeling when the space was finally empty")
 
-#### Chimneys
+### Chimneys
 Destroying chimneys was fun, after my partner and I did the 1st one together then we invited friends over to do the other two (I took the wonderful task of filling the burlap bags with bricks). The process for removing a chimney was roughly:
 - Remove the plaster on the interior of the chimney, this makes it significantly easier to remove the bricks on the interior.
 - Build a platform on the exterior to stand on while destroying the top of the chimney.
@@ -87,7 +87,7 @@ Destroying chimneys was fun, after my partner and I did the 1st one together the
 
 ![temporary chimney cover](https://cdn.ericcbonet.com/rotterdam-renovation/temporary-chimney.jpg "once again not something I'm proud of, but it was only like there for a few winter months")
 
-### Prepare back facade (Phase 2, 1 month)
+## Prepare back facade (Phase 2, 1 month)
 
 The back of the house was going to be all glass with sliding doors to the balcony. The length of the balcony was also going to be increased and partially covered by the roof.
 
@@ -100,7 +100,7 @@ The back of the house was going to be all glass with sliding doors to the balcon
 
 ![brick wall removing plaster](https://cdn.ericcbonet.com/rotterdam-renovation/brick-wall-removing-plaster.jpg "we removed the plaster before the truss was installed because it much easier to destroy the wally when the plaster is already off. We also got some wood to fix all the holes in the floor.")
 
-#### The truss
+### The truss
 
 ![truss wood on site](https://cdn.ericcbonet.com/rotterdam-renovation/truss-wood-on-site.jpg "bringing the wood up felt like a major milestone, before this we were only getting stuff out of the space.")
 
@@ -122,7 +122,7 @@ The back of the house was going to be all glass with sliding doors to the balcon
 
 ![installing truss top chord](https://cdn.ericcbonet.com/rotterdam-renovation/installing-truss-top-chord.jpg "Here we're doing the final assembly of the truss. The top chord, also sandwiched the rafters, I wanted to make a mortise and tenon joint but I don't think it would have been possible to install the truss with the roof still in place.")
 
-#### Demolishing the back facade
+### Demolishing the back facade
 
 With the truss in place the next step as to destroy the back facade. Then I'd put my engineering to the test because with the facade gone the truss would be holding the roof up.
 
@@ -137,7 +137,7 @@ With the truss in place the next step as to destroy the back facade. Then I'd pu
 ![bags of bricks](https://cdn.ericcbonet.com/rotterdam-renovation/bags-of-bricks.jpg "In one days worth of work we destroyed the entire back facade and bagged all the bricks, It was late and I was exhausted in this photo")
 
 
-#### Fix flooring
+### Fix flooring
 
 Removing the wall created some new issues, the mason wall was resting on 2 steel steel channels that formed an I profile there was a 2-8cm gap between the steel channels and the sub floor, this had to be filled in, then because this part of the deck was outside we needed to ensure everything sloped towards the drain.
 
@@ -153,7 +153,7 @@ Removing the wall created some new issues, the mason wall was resting on 2 steel
 
 ![temp facade](https://cdn.ericcbonet.com/rotterdam-renovation/temp-facade.jpg "we were heading into fall which is one of the many rainy seasons  in Holland, so we made a temp facade to keep the workspace dry.")
 
-### Dormer Construction (Phase 3, 4 months)
+## Dormer Construction (Phase 3, 4 months)
 
 The construction of the Dormers was the most time intensive part of the project. Once the roof was removed we had to get the structure up and waterproofed fast. I recall waking up one night to the sound of dripping only to run upstairs and discover a pool of water in the workshop, because one of the tarps had a leek. I took one week off for each dormer and worked very long days the rough process for this was:
 
@@ -169,7 +169,7 @@ The construction of the Dormers was the most time intensive part of the project.
 - Reinstall roof tiles: This required a lot of cutting of tiles to fit around the dormers.
 - Re-route the exhausts for the water heaters
 
-#### Fabricating and installing fill beams
+### Fabricating and installing fill beams
 
 ![expose](https://cdn.ericcbonet.com/rotterdam-renovation/expose.jpg "exposing the so we can install the fill beam, huge thanks to our friend Ivan who helped out on almost all stages of the project")
 ![supporting joist](https://cdn.ericcbonet.com/rotterdam-renovation/supporting-joist.jpg "Installed a temporary column to support the joist before the fill beam was installed.")
@@ -184,7 +184,7 @@ The construction of the Dormers was the most time intensive part of the project.
 
 ![fill beam embedded in wall](https://cdn.ericcbonet.com/rotterdam-renovation/fill-beam-embedded-in-wall.jpg "the bottom part of the fill beam embedded in the masonry wall")
 
-#### Dormer fabrication
+### Dormer fabrication
 
 ![removing roof](https://cdn.ericcbonet.com/rotterdam-renovation/removing-roof.jpg "removing the 1st section of the roof...on a grey day in Holland, would have made our lives much easier if we waited for better weather but we wanted to keep the project moving.")
 
@@ -242,7 +242,7 @@ The construction of the Dormers was the most time intensive part of the project.
 
 ![hpl installed](https://cdn.ericcbonet.com/rotterdam-renovation/hpl-installed.jpg "The HPL installed")
 
-### Fix back facade (Phase 4, 1 month)
+## Fix back facade (Phase 4, 1 month)
 
 - Construct the frame for the sliding glass doors
 - Install bitumen on the new balcony floor.
@@ -280,7 +280,17 @@ The construction of the Dormers was the most time intensive part of the project.
 
 ![deck pattern](https://cdn.ericcbonet.com/rotterdam-renovation/deck-pattern.jpg "I like how the pattern in the deck boards turned out, I now clean and re stain this every summer to prevent the deck from going grey.")
 
-### Interior Construction (Phase 4, 6 months)
+![the crane for the doors](https://cdn.ericcbonet.com/rotterdam-renovation/the-crane-for-the-doors.jpg "I was a bit surprised when this crane showed up, the street in front of our house was blocked for two hours to set the sliding door and windows on our balcony")
+
+![lowering door and window frames](https://cdn.ericcbonet.com/rotterdam-renovation/lowering-door-and-window-frames.jpg "Our house is 15.5 meters long, adding in the distance from the front door to the street the boom on this crane was at least 20 meters long.")
+
+![window installed](https://cdn.ericcbonet.com/rotterdam-renovation/window-installed.jpg "We went for aluminum windows and doors, hopefully for the rest of my life these the facade of the dormers will be maintenance free.")
+
+![installing sliding doors](https://cdn.ericcbonet.com/rotterdam-renovation/installing-sliding-doors.jpg )
+
+![sliding door installed](https://cdn.ericcbonet.com/rotterdam-renovation/sliding-door-installed.jpg "We got our aluminum doors and windows from [Alupui](https://www.alupui.nl/). They installed everything in one day, were very professional and did excellent work. We're super happy we went with them. Here we're a bit out of order with the photos we were on our way with interior construction when the doors and windows arrived.")
+
+## Interior Construction (Phase 5, 6 months)
 
 - Sanding trusses
 - Insulated the floor: Installed 3cm of Fermacell insulation for improved thermal performance.
@@ -295,9 +305,65 @@ The construction of the Dormers was the most time intensive part of the project.
 
 ![phase 3 dormer complete](https://cdn.ericcbonet.com/rotterdam-renovation/phase-3-dormer-complete.jpg "Since the start of the construction I couldn't wait for the moment to clean the trusses and bring them back to their natural color. I was so excited I started sanding them long before we should have.")
 
+![view prior to starting upstairs](https://cdn.ericcbonet.com/rotterdam-renovation/view-prior-to-starting-upstairs.jpg)
 
+![creating supports where old chimneys were](https://cdn.ericcbonet.com/rotterdam-renovation/creating-supports-where-old-chimneys-were.jpg "Remember the chimneys we destroyed? Since we also were going to remove them when we renovated the downstairs we had to add some beams to support the floor under the chimneys")
 
-### Final Touches (Phase 5, 2 months)
+### Created extra floor for a closet
+
+![cutting into wall to create extra floor](https://cdn.ericcbonet.com/rotterdam-renovation/cutting-into-wall-to-create-extra-floor.jpg "We wanted to have a closet upstairs to do that we needed to extend the floor above the staircase a bit. Here we are cutting out two parts from the brick wall which will support the to-be-install floor joists")
+
+![installing new floor joists](https://cdn.ericcbonet.com/rotterdam-renovation/installing-new-floor-joists.jpg "adding the two new floor joists that will support the closet floor")
+
+![adding new floor](https://cdn.ericcbonet.com/rotterdam-renovation/adding-new-floor.jpg)
+
+### Bookcase
+
+![framing bookcase](https://cdn.ericcbonet.com/rotterdam-renovation/framing-bookcase.jpg "The exhaust from our neighbors water heater and some bathroom fans went through our ceiling. Rather than having just a mechanical box we decided to build a bookcase around it.")
+
+![bookcase framed and insulation added](https://cdn.ericcbonet.com/rotterdam-renovation/bookcase-framed-and-insulation-added.jpg)
+
+![wrapped bookcase with vapor barrier](https://cdn.ericcbonet.com/rotterdam-renovation/wrapped-bookcase-with-vapor-barrior.jpg "Wrapping the bookcase with the vapor barrier felt like wrapping a present")
+
+![bookcase starting on gips](https://cdn.ericcbonet.com/rotterdam-renovation/bookcase-starting-on-gips.jpg "We used the same wall profile for the entire upstairs, covered all the walls with 1cm of OSB and 9mm of drywall")
+
+![bookcase with gips](https://cdn.ericcbonet.com/rotterdam-renovation/bookcase-with-gips.jpg "next step plaster and add the shelves")
+
+### Kitchen
+
+We went for an Ikea kitchen with a composite counter top from a different supplier. We made the kitchen counter earth level and 83cm tall at the center of the kitchen. Which meant east side of the house the counter was 86cm tall and on the west side it was 80cm tall.
+
+![ikea test cabinents](https://cdn.ericcbonet.com/rotterdam-renovation/ikea-test-cabinents.jpg "We bought a few cabinets to start with to figure out how to build the framing")
+
+![kitchen framing into wall](https://cdn.ericcbonet.com/rotterdam-renovation/kitchen-framing-into-wall.jpg "We wanted to use as much space as possible so we made it so the cabinets went deeper than the counter.")
+
+![kitchen framing ceiling](https://cdn.ericcbonet.com/rotterdam-renovation/kitchen-framing-ceiling.jpg "framing the ceiling was a challenge, I probably over did it with the number of framing elements used")
+
+![kitchen adding vapor barrier](https://cdn.ericcbonet.com/rotterdam-renovation/kitchen-adding-vapor-barrier.jpg)
+
+![kitchen where fridge goes](https://cdn.ericcbonet.com/rotterdam-renovation/kitchen-where-fridge-goes.jpg "At this part of the kitchen we were going to have the fridge and microwave. We used [plaatprikker](https://www.plaatprikker.com/) to easily mark where we had to drill the holes for the outlets. There are pretty expensive for what they are but save so much time it's worth the cost.")
+
+![wall buildup](https://cdn.ericcbonet.com/rotterdam-renovation/wall-buildup.jpg "When it was time to install the exhaust for the grill I got to put a hole saw through all the layers of the wall, which was 14.5 cm thick")
+
+### Skylights
+
+We added 4 [Velux skylights](https://www.velux.nl/) at the ridge which really lightened up the space. Sometimes I wear sunglasses upstairs. If I was going to re-do this project I'd spend the extra money to have exterior shades on the skylights It can get really hot in the summer.
+
+![skylights on ceiling](https://cdn.ericcbonet.com/rotterdam-renovation/skylights-on-ceiling.jpg "I started by framing where the skylights would be attached to, then drilled a hole through the interior corner of each frame. So I would know where to cut out the outside.")
+
+![skylights removed tyvek](https://cdn.ericcbonet.com/rotterdam-renovation/skylights-removed-tyvek.jpg )
+
+![skylights cut hole in roof](https://cdn.ericcbonet.com/rotterdam-renovation/skylights-cut-hole-in-roof.jpg)
+ 
+![skylights flashing done](https://cdn.ericcbonet.com/rotterdam-renovation/skylights-flashing-done.jpg "The Velux system was really nice to work with everything felt really high quality and went together easily. I did four of these in a weekend")
+
+![skylights installing from inside](https://cdn.ericcbonet.com/rotterdam-renovation/skylight-installing-from-inside.jpg "It looks like I was struggling with something here")
+
+![skylights finished](https://cdn.ericcbonet.com/rotterdam-renovation/skylights-finishe.jpg)
+
+![eric installing boards](https://cdn.ericcbonet.com/rotterdam-renovation/eric-installing-boards.jpg)
+
+## Final Touches (Phase 6, 2 months)
 
 - Assembled the Ikea kitchen: Completed the heart of the home.
 - Tiled the bathroom: Installed the toilet and other bathroom fixtures.
