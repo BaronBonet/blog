@@ -8,17 +8,24 @@ During Covid (2020 and 2021) my partner and I renovated the top floor of a Rotte
 
 # Before and after photos
 
-![before looking to street](https://cdn.ericcbonet.com/rotterdam-renovation/before-looking-to-street.jpg)
+## Facing the front of the house
+![before looking to street](https://cdn.ericcbonet.com/rotterdam-renovation/before-looking-to-street.jpg "Before")
 
-![before looking from bedroom](https://cdn.ericcbonet.com/rotterdam-renovation/before-looking-from-bedroom.jpg)
+![after looking to street](https://cdn.ericcbonet.com/rotterdam-renovation/new-apartment-overview.jpg "After")
 
-![before looking from kitchen](https://cdn.ericcbonet.com/rotterdam-renovation/before-looking-from-kitchen.jpg)
+## Facing the back of the house
+![before looking from bedroom](https://cdn.ericcbonet.com/rotterdam-renovation/before-looking-from-bedroom.jpg "Before")
 
-![before outside](https://cdn.ericcbonet.com/rotterdam-renovation/before-outside.jpg)
+![after view from kitchen](https://cdn.ericcbonet.com/rotterdam-renovation/new-view-from-kitchen.jpg "After")
+
+## The living room
+![before looking from kitchen](https://cdn.ericcbonet.com/rotterdam-renovation/before-looking-from-kitchen.jpg "Before")
+
+![new view into living space](https://cdn.ericcbonet.com/rotterdam-renovation/new-view-into-living-space.jpg "After")
 
 # The Renovation Journey
 
-We bought the top two floors of a 4 story house at the start of Covid and started the renovation in the summer of 2020. We lived in the lower level during the entirety of the renovation. The renovation took approximately 1.5 years to complete since we did most of the work ourselves and were working full time. One notable detail that made this project challenging was the concept of "house level" the house had settled so the front (north side) of the house was 14cm lower than the back and the west side was 7cm higher than the east.
+My partner and I bought the top two floors of a 4 story house at the start of Covid and started the renovation in the summer of 2020. We lived in the lower level during the entirety of the renovation. The renovation took approximately 1.5 years to complete since we did most of the work ourselves and were working full time. One notable detail that made this project challenging was the concept of "house level" the house had settled so the front (north side) of the house was 14cm lower than the back and the west side was 7cm higher than the east.
 
 ## Pre-Construction: Planning and Permits, 6 months 
 
@@ -46,14 +53,14 @@ By the time demolition was complete we used about five 10m{{<super "3">}} dumpst
 ![beginning destruction](https://cdn.ericcbonet.com/rotterdam-renovation/beginning-destruction.jpg)
 ![removing kitchen](https://cdn.ericcbonet.com/rotterdam-renovation/removing-kitchen.jpg "It got full quite quickly at the start")
 ![removing flooring](https://cdn.ericcbonet.com/rotterdam-renovation/removing-flooring.jpg "Kitchen was all out and started to remove the floor")
-![destroying shower](https://cdn.ericcbonet.com/rotterdam-renovation/destroying-shower.jpg "destroying the bathroom")
+![destroying shower](https://cdn.ericcbonet.com/rotterdam-renovation/destroying-shower.jpg "Destroying the bathroom")
 ![removing tiles](https://cdn.ericcbonet.com/rotterdam-renovation/removing-tiles.jpg "Removing the tiles with a chisel, we really tested the patience of our neighbors at times.")
 We started with a few basic tools that I had from my university days in America then slowly purchased more, remembering how we hammered all these tiles out we would have made life a lot easier if we got a hammer drill earlier.
 ![interior walls cleared](https://cdn.ericcbonet.com/rotterdam-renovation/interior-walls-cleared.jpg)
 
 ![destroying ceiling](https://cdn.ericcbonet.com/rotterdam-renovation/destroying-ceiling.jpg)
 
-![almost destroyed ceiling](https://cdn.ericcbonet.com/rotterdam-renovation/almost-destroyed-ceiling.jpg "if you're ever going to do this be sure to wear a  long sleeve shirts, a mask with a HEPA filter and goggles, rockwool insulation is incredibly irritating")
+![almost destroyed ceiling](https://cdn.ericcbonet.com/rotterdam-renovation/almost-destroyed-ceiling.jpg "If you're ever going to do this be sure to wear a  long sleeve shirts, a mask with a HEPA filter and goggles, rockwool insulation is incredibly irritating")
 
 ![destroying staircase wall](https://cdn.ericcbonet.com/rotterdam-renovation/destroying-staircase-wall.jpg)
 
@@ -86,6 +93,8 @@ Destroying chimneys was fun, after my partner and I did the 1st one together the
 ![chimney almost destroyed](https://cdn.ericcbonet.com/rotterdam-renovation/chimney-almost-destroyed.jpg "here you can see how we filled the holes with towels to prevent debris from falling into the chimney")
 
 ![temporary chimney cover](https://cdn.ericcbonet.com/rotterdam-renovation/temporary-chimney.jpg "once again not something I'm proud of, but it was only like there for a few winter months")
+
+![creating supports where old chimneys were](https://cdn.ericcbonet.com/rotterdam-renovation/creating-supports-where-old-chimneys-were.jpg "We would eventually have flooring where the chimney was, so that required some new supports")
 
 ## Prepare back facade (Phase 2, 1 month)
 
@@ -280,7 +289,7 @@ The construction of the Dormers was the most time intensive part of the project.
 
 ![deck pattern](https://cdn.ericcbonet.com/rotterdam-renovation/deck-pattern.jpg "I like how the pattern in the deck boards turned out, I now clean and re stain this every summer to prevent the deck from going grey.")
 
-![the crane for the doors](https://cdn.ericcbonet.com/rotterdam-renovation/the-crane-for-the-doors.jpg "I was a bit surprised when this crane showed up, the street in front of our house was blocked for two hours to set the sliding door and windows on our balcony")
+![the crane for the doors](https://cdn.ericcbonet.com/rotterdam-renovation/the-crane-for-the-doors.jpg "I was a bit surprised when this crane showed up. I knew a crane was cuming but my brain didn't register how large it would have to be. The street in front of our house was blocked for two hours to set the sliding door and windows on our balcony")
 
 ![lowering door and window frames](https://cdn.ericcbonet.com/rotterdam-renovation/lowering-door-and-window-frames.jpg "Our house is 15.5 meters long, adding in the distance from the front door to the street the boom on this crane was at least 20 meters long.")
 
@@ -307,16 +316,6 @@ The construction of the Dormers was the most time intensive part of the project.
 
 ![view prior to starting upstairs](https://cdn.ericcbonet.com/rotterdam-renovation/view-prior-to-starting-upstairs.jpg)
 
-![creating supports where old chimneys were](https://cdn.ericcbonet.com/rotterdam-renovation/creating-supports-where-old-chimneys-were.jpg "Remember the chimneys we destroyed? Since we also were going to remove them when we renovated the downstairs we had to add some beams to support the floor under the chimneys")
-
-### Created extra floor for a closet
-
-![cutting into wall to create extra floor](https://cdn.ericcbonet.com/rotterdam-renovation/cutting-into-wall-to-create-extra-floor.jpg "We wanted to have a closet upstairs to do that we needed to extend the floor above the staircase a bit. Here we are cutting out two parts from the brick wall which will support the to-be-install floor joists")
-
-![installing new floor joists](https://cdn.ericcbonet.com/rotterdam-renovation/installing-new-floor-joists.jpg "adding the two new floor joists that will support the closet floor")
-
-![adding new floor](https://cdn.ericcbonet.com/rotterdam-renovation/adding-new-floor.jpg)
-
 ### Bookcase
 
 ![framing bookcase](https://cdn.ericcbonet.com/rotterdam-renovation/framing-bookcase.jpg "The exhaust from our neighbors water heater and some bathroom fans went through our ceiling. Rather than having just a mechanical box we decided to build a bookcase around it.")
@@ -325,13 +324,15 @@ The construction of the Dormers was the most time intensive part of the project.
 
 ![wrapped bookcase with vapor barrier](https://cdn.ericcbonet.com/rotterdam-renovation/wrapped-bookcase-with-vapor-barrior.jpg "Wrapping the bookcase with the vapor barrier felt like wrapping a present")
 
-![bookcase starting on gips](https://cdn.ericcbonet.com/rotterdam-renovation/bookcase-starting-on-gips.jpg "We used the same wall profile for the entire upstairs, covered all the walls with 1cm of OSB and 9mm of drywall")
+![bookcase starting on gips](https://cdn.ericcbonet.com/rotterdam-renovation/bookcase-starting-on-gips.jpg "We used the same wall profile for the entire upstairs, covered all the walls with 1cm particle board and 9mm drywall")
 
-![bookcase with gips](https://cdn.ericcbonet.com/rotterdam-renovation/bookcase-with-gips.jpg "next step plaster and add the shelves")
+![bookcase with drywall](https://cdn.ericcbonet.com/rotterdam-renovation/bookcase-with-gips.jpg)
+
+![painted bookcase](https://cdn.ericcbonet.com/rotterdam-renovation/painted-bookcase.jpg "we added wooden shelves after the bookcase was plastered")
 
 ### Kitchen
 
-We went for an Ikea kitchen with a composite counter top from a different supplier. We made the kitchen counter earth level and 83cm tall at the center of the kitchen. Which meant east side of the house the counter was 86cm tall and on the west side it was 80cm tall.
+We went for an Ikea kitchen with a composite counter top from a different supplier. We made the kitchen counter earth level (because we also had the concept of 'house level') and 83cm tall at the center of the kitchen. Which meant east side of the house the counter was 86cm tall and on the west side it was 80cm tall.
 
 ![ikea test cabinents](https://cdn.ericcbonet.com/rotterdam-renovation/ikea-test-cabinents.jpg "We bought a few cabinets to start with to figure out how to build the framing")
 
@@ -339,11 +340,17 @@ We went for an Ikea kitchen with a composite counter top from a different suppli
 
 ![kitchen framing ceiling](https://cdn.ericcbonet.com/rotterdam-renovation/kitchen-framing-ceiling.jpg "framing the ceiling was a challenge, I probably over did it with the number of framing elements used")
 
-![kitchen adding vapor barrier](https://cdn.ericcbonet.com/rotterdam-renovation/kitchen-adding-vapor-barrier.jpg)
+![kitchen adding vapor barrier](https://cdn.ericcbonet.com/rotterdam-renovation/kitchen-adding-vapor-barrier.jpg "We used rockwool insulation on the walls and a hard polyurethane foam on the ceiling. Everything was covered in a vapor barrier. I'm really happy with the warmth of space, in below freezing nights it can be warm upstairs with only the floor heating.")
 
 ![kitchen where fridge goes](https://cdn.ericcbonet.com/rotterdam-renovation/kitchen-where-fridge-goes.jpg "At this part of the kitchen we were going to have the fridge and microwave. We used [plaatprikker](https://www.plaatprikker.com/) to easily mark where we had to drill the holes for the outlets. There are pretty expensive for what they are but save so much time it's worth the cost.")
 
+![plastering kitchen area](https://cdn.ericcbonet.com/rotterdam-renovation/plastering-kitchen-area.jpg "When the kitchen was being plastered")
+
+![installing kitchen after plaster](https://cdn.ericcbonet.com/rotterdam-renovation/installing-kitchen-after-plaster.jpg "Installing the ikea cabinents after we plastered and painted")
+
 ![wall buildup](https://cdn.ericcbonet.com/rotterdam-renovation/wall-buildup.jpg "When it was time to install the exhaust for the grill I got to put a hole saw through all the layers of the wall, which was 14.5 cm thick")
+
+![installing counter](https://cdn.ericcbonet.com/rotterdam-renovation/installing-counter.jpg "the composite counter tops installed by the fabricator, they did a great job")
 
 ### Skylights
 
@@ -354,22 +361,40 @@ We added 4 [Velux skylights](https://www.velux.nl/) at the ridge which really li
 ![skylights removed tyvek](https://cdn.ericcbonet.com/rotterdam-renovation/skylights-removed-tyvek.jpg )
 
 ![skylights cut hole in roof](https://cdn.ericcbonet.com/rotterdam-renovation/skylights-cut-hole-in-roof.jpg)
- 
 ![skylights flashing done](https://cdn.ericcbonet.com/rotterdam-renovation/skylights-flashing-done.jpg "The Velux system was really nice to work with everything felt really high quality and went together easily. I did four of these in a weekend")
 
 ![skylights installing from inside](https://cdn.ericcbonet.com/rotterdam-renovation/skylight-installing-from-inside.jpg "It looks like I was struggling with something here")
 
 ![skylights finished](https://cdn.ericcbonet.com/rotterdam-renovation/skylights-finishe.jpg)
 
-![eric installing boards](https://cdn.ericcbonet.com/rotterdam-renovation/eric-installing-boards.jpg)
+### Mechanical shaft, toilet and closet
+We wanted to have a toilet upstairs and needed a mechanical shaft for our water heater and bathroom exhaust as well as a place for the floor heating pump and tubes. So we sandwiched the mechanical shaft between the toilet and closet. 
+![cutting into wall to create extra floor](https://cdn.ericcbonet.com/rotterdam-renovation/cutting-into-wall-to-create-extra-floor.jpg "We wanted to have a closet upstairs to do that we needed to extend the floor above the staircase a bit. Here we are cutting out two parts from the brick wall which will support the to-be-install floor joists")
 
-## Final Touches (Phase 6, 2 months)
+![installing new floor joists](https://cdn.ericcbonet.com/rotterdam-renovation/installing-new-floor-joists.jpg "adding the two new floor joists that will support the closet floor")
 
-- Assembled the Ikea kitchen: Completed the heart of the home.
-- Tiled the bathroom: Installed the toilet and other bathroom fixtures.
-- Installed parquet flooring: Added a beautiful and durable flooring material.
-- Installed kitchen appliances and countertops: Finalized the kitchen for functionality and aesthetics.
+![adding new floor](https://cdn.ericcbonet.com/rotterdam-renovation/adding-new-floor.jpg "We only added 1m x 0.5m to to the floor but it made creating a good sized closet feasible")
 
-Installed dormer cladding and skylights: Completed the dormer exteriors and added natural light to the upper floor.
-Repaired the main roof: Fixed waterproofing at the peak, reinstalled roof tiles, and replaced rotten wood.
+![toilet and closet overview](https://cdn.ericcbonet.com/rotterdam-renovation/toilet-and-closet-overview.jpg "the right door leads to the toilet and the left to the closet.")
 
+![creating door frame](https://cdn.ericcbonet.com/rotterdam-renovation/creating-door-frame.jpg "We bought the doors and frames from the Hornbach, a dutch building supply store.")
+
+![toilet covering walls](https://cdn.ericcbonet.com/rotterdam-renovation/toilet-covering-walls.jpg "the toilet under construction above the toilet to the right is where the mechanical shaft is, to the left of that we made a shelf which is handy for storing toilet paper")
+
+### Finalizing the space
+Once all the Walls were built, MEP was installed and walls were covered. A company plaster the space. We then painted everything, another company installed the floor heating. The floor was not smooth enough to lay the parquet flooring directly on the fermecell plates. So equalized the floor, the parquet was installed and we enjoyed.
+
+![house covered in drywall](https://cdn.ericcbonet.com/rotterdam-renovation/house-covered-in-drywall.jpg "The house was covered in drywall, the next step was to plaster everything")
+
+![painting on scafolding](https://cdn.ericcbonet.com/rotterdam-renovation/painting-on-scafolding.jpg "Painting the house")
+
+![prepping for plaster](https://cdn.ericcbonet.com/rotterdam-renovation/prepping-for-plaster.jpg "Prepping the house for plaster")
+
+![floor heating installed](https://cdn.ericcbonet.com/rotterdam-renovation/floor-heating-installed.jpg "Floor heating was installed!")
+![equalizing floor](https://cdn.ericcbonet.com/rotterdam-renovation/equalizing-floor.jpg "There was this big sag in the floor that needed equalizing.")
+
+![chilling before floor](https://cdn.ericcbonet.com/rotterdam-renovation/chilling-before-floor.jpg "Relaxing upstairs before the floor was installed")
+
+![installing parquet](https://cdn.ericcbonet.com/rotterdam-renovation/installing-parquet.jpg "We got lucky with the Ali, the guy we found on Werkspot who installing the floor")
+
+![flooring installed](https://cdn.ericcbonet.com/rotterdam-renovation/flooring-installed.jpg "The space complete")
